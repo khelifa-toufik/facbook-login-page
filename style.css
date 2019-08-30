@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body{
+    
+    font-family: 'Poppins', sans-serif;
+    background:#edf0f5;
+}
+header{
+    height: 15vh;
+    background: #3b5998;
+
+}
+.container{
+   padding-top:20px; 
+   max-width:80%;
+   margin: 0 auto; 
+   display: flex;
+   justify-content: space-between;
+   align-items:center;
+}
+
+.logo p{
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.login{
+    display: flex;
+    padding: 20px 0 0 0;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-right: 6px;
+}
+
+.email input{
+    margin-top: 3px;
+    padding: 5px 0;
+    width:220px; 
+    outline: none;
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-right: 6px;
+}
+
+.password input{
+    width:220px;
+    margin-top: 3px;
+    padding: 5px 0; 
+    outline: none;
+}
+
+.forgot{
+    color: #8da0ca;
+}
+
+.btn{
+    align-self: center;
+    padding: 5px ;
+    color: #fff;
+    background: rgba(240, 241, 243, 0.1);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.btn:hover{
+    background:  rgba(6, 32, 87, 0.1);
+}
+
+.front{
+    height: 90vh;
+    max-width:80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.feature1,
+.feature2,
+.feature3{
+    margin: 30px 0 15px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.feature1 span,
+.feature2 span,
+.feature3 span{
+    font-weight: 400;
+    color: #5f6064;
+}
+
+.feature1 img,
+.feature2 img,
+.feature3 img{
+    margin-right: 10px; 
+}
+
+
+
+.signup{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(58, 57, 57);
+    margin-bottom: 0px;
+}
+
+.subtitle{
+    font-size: 36px;
+    font-weight: 500;
+    color: #5f6064;
+}
+
+.the-form{
+    display: flex;
+    flex-direction: column;
+    width:500px;
+}
+
+.full-name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    width:245px;
+    padding: 15px;
+    background:#ffffff ;
+    border: 0.5px solid #bbcbec;
+    border-radius: 8px;
+    outline: none;
+    margin: 20px 0 10px 0;
+}
+
+.name::placeholder{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.form-email,
+.form-password{
+    padding: 15px;
+    background: #fff;
+    border: 0.5px solid #bbcbec;
+    border-radius: 8px;
+    outline: none;
+    margin: 0px 0 10px 0;
+}
+
+.form-email::placeholder,
+.form-password::placeholder{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.birthday, .gender{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    color:#5f6064;
+}
+
+.options{
+    margin: 10px 0;
+}
+.month, .day, .year{
+    padding: 10px;
+    border-radius: 5px;
+} 
+
+.chek{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.male, .female, .custom{
+    font-size: 20px;
+    font-weight: 600px;
+} 
+
+.discription{
+    color:#5f6064;
+}
+
+.form-btn{
+    font-size: 16px;
+    font-weight: 600;
+    width: 245px;
+    margin: 25px 0;
+    padding: 14px;
+    border: 2px solid green;
+    border-radius:10px; 
+    background: linear-gradient(#67ae55, #578843);
+    color: #fff;
+    outline: none;
+}
+
+hr{
+    margin-bottom: 30px; 
+}
+
+.tip{
+    font-size: 18px;
+    font-weight: 600;
+    color: #545558;
+}
+
+.create{
+    text-decoration: none;
+    color: rgb(5, 92, 146);
+}
+
+.lang, .lang2{
+   background: #fff;
+   width: 100%;
+   height: 10vh;  
+}
+
+.list, .list2{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    border-bottom: 1px solid #b2b4b6; 
+}
+
+.list p, .list2 p{
+    color:#385898;
+    padding: 0 10px;
+}
+
+.list .active{
+    margin-left:0px;
+    color: #696b6d; 
+}
